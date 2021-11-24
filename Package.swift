@@ -11,6 +11,7 @@ let package = Package(
     products: [
         .library(
             name: "JSONAPI",
+            type: .dynamic,
             targets: ["JSONAPI"]),
         .library(
             name: "JSONAPITesting",
